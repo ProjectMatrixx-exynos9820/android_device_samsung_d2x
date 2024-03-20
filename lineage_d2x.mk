@@ -45,9 +45,6 @@ MATRIXX_CHIPSET := exynos9825
 MATRIXX_BATTERY := 3500mah
 MATRIXX_DISPLAY := 1080x2280
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_d2x
 PRODUCT_DEVICE := d2x
